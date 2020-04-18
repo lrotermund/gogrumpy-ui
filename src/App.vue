@@ -1,6 +1,6 @@
 <template>
-  <div class="h-screen flex flex-col" id="app">
-    <Header />
+  <div class="h-screen flex flex-col font-ubuntu" id="app">
+    <Header/>
     <router-view/>
   </div>
 </template>
