@@ -47,7 +47,6 @@ export default Vue.extend({
   methods: {
     toggleContextMenu(toggledGame: Boardgame) {
       this.$store.dispatch('toggleContextSidebar', { game: toggledGame });
-      console.table(toggledGame.toArray());
     },
   },
 });

@@ -1,5 +1,8 @@
 # gogrumpy-ui
 
+The gogrumpy-ui is the front end of the gogrumpy platform.
+The gogrumpy platform is an online multiplayer app for playing digitized board games together, which are connected to the platform as microservices.
+
 ## Project setup
 ```
 npm install
@@ -20,5 +23,12 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Run app in docker container
+```
+docker-compose -f docker-compose.yml up
+```
+
+Add the following host to your hosts file:
+```
+127.0.0.1   gogrumpy-ui.test
+```
